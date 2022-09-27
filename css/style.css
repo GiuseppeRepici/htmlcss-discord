@@ -45,21 +45,41 @@
 }
 
 .sect1 {
-    background-color: blueviolet;
-    height: 150px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    height: 400px;
     display: flex;
     flex-shrink: 0;
     justify-content: center;
 }
 
 .box1{
-    background-color: blue;
     height: 120px;
     width: 460px;
     flex-shrink: 0;
     align-self: center;
+    text-align: center;
 }
 
+.hh {
+    text-align: center;
+}
+
+
+.box1 span {
+    border: 2px solid black;
+    border-radius: 20%;
+    padding: 2px;
+}
+
+.aa{
+    background-color: black;
+    color: white;
+}
+
+.pp{
+    margin-bottom: 10px;
+}
 
 .sect2 {
     background-color: red;
