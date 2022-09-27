@@ -98,31 +98,32 @@
 }
 
 .sect2 {
-    height: 400px;
+    padding: 40px 0;
     display: flex;
     justify-content: center;
 }
 .box9{
-    height: 370px;
+
     width: 920px;
-    flex-shrink: 0;
-    align-self: center;
     display: flex;
 }
 
-.sect1-box9 {
-    flex-grow: 1.5;
-    background-image: url(../img/item1.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
+.flex-b-50 {
+    flex-basis: 50%;
 }
 
+
+
+.par{
+    padding-top: 20px;
+}
 .sect2-box9 {
-    flex-grow: 1;
-    border: 2px solid black;
+    display: flex;
+    padding-top: 38px;
 }
-
-
+.sects{
+    
+}
 .sect3 {
     height: 400px;
     display: flex;
