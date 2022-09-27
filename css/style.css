@@ -50,8 +50,15 @@ a{
     justify-content: flex-end;
 }
 
+.boxs{
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 2rem;
+}
+
 .test{
     text-align: center;
+    padding: 1px 3px;
 }
 
 .sect1 {
