@@ -9,24 +9,20 @@
 .nav-testa{
     display: flex;
     height: 50px;
+    background-color: #255ee9;
     justify-content: center;
-    background-color: green;
 }
 
 .little-cont{
     height: 40px;
     width: 920px;
-    background-color: orange;
     align-self: center;
     display: flex;
     flex-shrink: 0;
-    justify-content: space-between;
 }
 
 
-.tit1 , .tit2 , .tit3 {
-    border: 2px solid black;
-}
+
 
 .tit1 , .tit3{
     flex-grow: 1;
@@ -36,12 +32,26 @@
     flex-grow: 2;
     display: flex;
     align-items: center;
+
     
 }
 
+.boxs{
+    border: 2px solid black;
+    border-radius: 20%;
+    color: black;
+    background-color: white;
+    padding: 5px 0;
+    width: 60px;
+}
 
+.test{
+    text-align: center;
+}
 .tit3{
-    text-align: right;
+    align-self: center;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .sect1 {
@@ -63,6 +73,9 @@
 
 .hh {
     text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 40px;
 }
 
 
@@ -206,8 +219,8 @@ footer{
 }
 
 a{
-    color: black;
-    margin: 0 5px;
+    color: white;
+    margin: 0 10px;
 }
 
 
