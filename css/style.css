@@ -82,33 +82,33 @@
 }
 
 .sect2 {
-    background-color: red;
-    height: 150px;
+    height: 400px;
     display: flex;
     justify-content: center;
 }
-.box2{
-    background-color: blue;
-    height: 120px;
+.box9{
+    height: 370px;
     width: 920px;
     flex-shrink: 0;
     align-self: center;
     display: flex;
 }
 
-.sect1-box2 {
+.sect1-box9 {
     flex-grow: 1.5;
-    border: 2px solid black;
+    background-image: url(../img/item1.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
-.sect2-box2 {
+.sect2-box9 {
     flex-grow: 1;
     border: 2px solid black;
 }
 
 .sect3 {
     background-color: orange;
-    height: 150px;
+    height: 400px;
     display: flex;
     justify-content: center;
 }
@@ -120,7 +120,8 @@
 
 .sect2-box3 {
     flex-grow: 1.5;
-    border: 2px solid black;
+    background-image: url(../img/item2.svg);
+    background-size: contain;
 }
 
 .sect4 {
@@ -208,6 +209,30 @@ a{
 }
 
 
+.box3{
+    height: 370px;
+    width: 920px;
+    flex-shrink: 0;
+    align-self: center;
+    display: flex;
+}
+.box2{
+    height: 370px;
+    width: 920px;
+    flex-shrink: 0;
+    align-self: center;
+    display: flex;
+}
 
+.sect1-box2 {
+    flex-grow: 1.5;
+    background-image: url(../img/item3.svg);
+    background-size: contain;
+    
+}
 
+.sect2-box2 {
+    flex-grow: 1;
+    border: 2px solid black;
+}
 
