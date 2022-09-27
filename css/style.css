@@ -71,7 +71,10 @@
     border-radius: 20%;
     padding: 2px;
 }
-
+.bb{
+    color: black;
+    background-color: white;
+}
 .aa{
     background-color: black;
     color: white;
@@ -106,8 +109,8 @@
     border: 2px solid black;
 }
 
+
 .sect3 {
-    background-color: orange;
     height: 400px;
     display: flex;
     justify-content: center;
@@ -125,7 +128,6 @@
 }
 
 .sect4 {
-    background-color: violet;
     height: 300px;
     display: flex;
     justify-content: center;
