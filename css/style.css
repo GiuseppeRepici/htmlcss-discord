@@ -109,6 +109,27 @@ a{
     display: flex;
     justify-content: center;
 }
+
+.sect6 {
+    padding: 40px 0;
+    background-color: ;
+    display: flex;
+    justify-content: center;
+}
+
+.wave{
+    margin-bottom: -10px;
+}
+
+.wave1{
+    margin-bottom: -10px;
+}
+
+.wave2{
+    margin-btop: -10px;
+    transform: rotate(180deg);
+}
+
 .box9{
 
     width: 920px;
@@ -152,7 +173,18 @@ a{
     align-items: center;
     width: 920px;
     margin: 0 auto 40px;
+}
 
+.sect9{
+    background-color: gray;
+    width: 100vw;
+    padding-bottom: 20px;
+}
+
+.sect10{
+    background-color: gray;
+    width: 100vw;
+    padding-bottom: ;
 }
 
 .part1 h3{
